@@ -1,5 +1,5 @@
 import { Github, Linkedin, Mail, ArrowUp } from 'lucide-react';
-import logo from '../assets/footer-logo.png';
+import footer-logo from '../assets/footer-logo.png';
 
 interface FooterProps {
   dark: boolean;
