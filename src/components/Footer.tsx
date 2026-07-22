@@ -28,8 +28,8 @@ export default function Footer({ dark, showBackToTop }: FooterProps) {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             {/* Logo */}
             <a href="#home" className="font-mono font-semibold text-base">
-              <img src={logo} alt="Logo" className="h-8 w-auto" />
-              <span className={dark ? 'text-white' : 'text-gray-900'}></span>
+              
+              <span className={dark ? 'text-white' : 'text-gray-900'}>NAWAF</span>
              
             </a>
 
