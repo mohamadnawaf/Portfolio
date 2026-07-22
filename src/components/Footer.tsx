@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail, ArrowUp } from 'lucide-react';
+import logo from '../assets/footer-logo.png';
 
 interface FooterProps {
   dark: boolean;
@@ -27,8 +28,8 @@ export default function Footer({ dark, showBackToTop }: FooterProps) {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             {/* Logo */}
             <a href="#home" className="font-mono font-semibold text-base">
-             
-              <span className={dark ? 'text-white' : 'text-gray-900'}>NAWAF</span>
+              <img src={footer-logo} alt="Logo" className="h-8 w-auto" />
+              <span className={dark ? 'text-white' : 'text-gray-900'}></span>
              
             </a>
 
