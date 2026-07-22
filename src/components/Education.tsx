@@ -79,7 +79,7 @@ export default function Education({ dark }: EducationProps) {
               <h3 className={`text-lg font-semibold ${dark ? 'text-white' : 'text-gray-900'}`}>
                 G.C.E. Advanced Level
               </h3>
-              <p className="text-sm text-primary-500 font-medium mt-1">Physical Science Stream</p>
+              <p className="text-sm text-primary-500 font-medium mt-1">Technology Stream</p>
               <div className={`flex items-center gap-2 mt-2 text-sm ${dark ? 'text-gray-400' : 'text-gray-600'}`}>
                 <Calendar size={14} className="text-primary-500" />
                 <span>Completed</span>
