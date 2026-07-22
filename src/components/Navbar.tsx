@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Sun, Moon, Menu, X } from 'lucide-react';
+import logo from '../assets/logo.png';
 
 const links = [
   { href: '#home',           label: 'Home' },
@@ -57,9 +58,9 @@ export default function Navbar({ dark, toggleDark }: NavbarProps) {
             href="#home"
             className="font-mono font-semibold text-lg tracking-tight"
           >
-            <span className="text-primary-500">&lt;</span>
-            <span className={dark ? 'text-white' : 'text-gray-900'}>MN</span>
-            <span className="text-primary-500">/&gt;</span>
+            <img src={logo} alt="Logo" className="h-8 w-auto" />
+            <span className={dark ? 'text-white' : 'text-gray-900'}></span>
+            
           </a>
 
           {/* Desktop links */}
