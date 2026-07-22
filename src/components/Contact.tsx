@@ -19,7 +19,7 @@ export default function Contact({ dark }: ContactProps) {
 
   const contactInfo = [
     { icon: Mail,     label: 'Email',    value: 'mhdnawaf2003@gmail.com', href: 'mailto:mhdnawaf2003@gmail.com' },
-    { icon: Phone,    label: 'Phone',    value: '+94 76 6802253',       href: 'tel:+94771234567' },
+    { icon: Phone,    label: 'Phone',    value: '+94 76 6802253',       href: 'tel:+94766802253' },
     { icon: Linkedin, label: 'LinkedIn', value: 'nawaf-kamil',            href: 'https://www.linkedin.com/in/nawaf-kamil' },
     { icon: Github,   label: 'GitHub',   value: 'mohamadnawaf',           href: 'https://github.com/mohamadnawaf' },
     { icon: MapPin,   label: 'Location', value: 'Avissawella, Sri Lanka',     href: null },
